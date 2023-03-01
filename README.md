@@ -1,13 +1,4 @@
-# Sample Hardhat Project
+# Alchemy University Week 4 Assignment Smart Contract Winner
 
-This project demonstrates a basic Hardhat use case. It comes with a sample contract, a test for that contract, and a script that deploys that contract.
-
-Try running some of the following tasks:
-
-```shell
-npx hardhat help
-npx hardhat test
-REPORT_GAS=true npx hardhat test
-npx hardhat node
-npx hardhat run scripts/deploy.js
-```
+> The project outcome:
+> Outcome transaction: https://goerli.etherscan.io/tx/0xcfc388e6c6d1e553b950b2e966d41229d8392125f369d10fb2c0eb9ad0e919e6
