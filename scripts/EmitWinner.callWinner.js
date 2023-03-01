@@ -4,7 +4,7 @@ const CONTRACT_ADDR = "0x9106057eA7d28C22bE95fF39d41E87D28EBBF80a";
 const ORIGINAL_CONTRACT = "0xcF469d3BEB3Fc24cEe979eFf83BE33ed50988502";
 
 async function main() {
-  const contract = await hre.ethers.getContractAt("EmitWinner", CONTRACT_ADDR);
+  const contract = await hre.ethers.getContractAt("EmitWinner", CONTRACT_ADDR); // It extracts ABI itself
 
   const tx = await contract.emitWinnerEvent(ORIGINAL_CONTRACT);
   await tx.wait();
